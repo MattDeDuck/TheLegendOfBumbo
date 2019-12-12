@@ -4,7 +4,7 @@ Trinket Helper is a plugin for use with BepInEx. Through the use of the numbers 
 
 ## How to use
 
-1. You need to install [BepInEx](https://github.com/BepInEx/BepInEx#readme) to your game (you may need to edit the BepInEx entrypoint for it to work).
+1. You need to install [BepInEx](https://github.com/BepInEx/BepInEx#readme) to The Legend of Bum-Bo game folder.
 2. Download the `TrinketHelper` folder containing `TrinketHelper.dll` and `MMHOOK_Assembly-CSharp.dll`
 3. Place the folder within `The Legend of Bum-Bo/BepInEx/plugins`
 4. Run the game through Steam
