@@ -9,3 +9,7 @@ Trinket Helper is a plugin for use with BepInEx. Through the use of the numbers 
 3. Create a folder in `The Legend of Bum-Bo/BepInEx/Plugins` entitled `TrinketHelper`
 4. Place the two files within `The Legend of Bum-Bo/BepInEx/plugins/TrinketHelper`
 5. Run the game through Steam
+
+## Simple Guide
+
+If you have 1-4 trinkets then press the respective number on the top of your keyboard. Doing so will display the trinket name and description for that slot. So if you press `2` then it will display the name of the trinket in the second slot as well as its description.
