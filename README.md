@@ -1,2 +1,2 @@
 # TheLegendOfBumbo
-Place for The Legend of Bum-Bo
+Place for The Legend of Bum-Bo plugins.
