@@ -17,5 +17,6 @@ Custom Loading Tips is a plugin for BepInEx. It allows you to set your own custo
 ```## Loading tip 3 of 12
 # Setting type: String
 # Default value: "make sure to always spin\nthe stat wheel!"
-LDTip3 = \"make sure to always spin\nthe stat wheel!\"```
+LDTip3 = \"make sure to always spin\nthe stat wheel!\"
+```
 
