@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace TrinketHelper
 {
-    [BepInPlugin("org.bepinex.plugins.trinkethelper", "Trinket Helper", "1.0.0.0")]
+    [BepInPlugin("org.bepinex.plugins.trinkethelper", "Trinket Helper", "1.0.0.1")]
     public class TrinketHelper : BaseUnityPlugin
     {
         void Awake()
@@ -64,11 +64,6 @@ namespace TrinketHelper
                         self.app.controller.GUINotification(self.app.model.characterSheet.trinkets[3].trinketName + "\n" + self.app.model.characterSheet.trinkets[3].Name, GUINotificationView.NotifyType.General, null, true);
                     }
                 }
-            }
-
-            if (Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.Z))
-            {
-                self.turnOnDebug = true;
             }
         }
     }
