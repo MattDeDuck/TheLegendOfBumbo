@@ -12,15 +12,21 @@ Custom Loading Tips is a plugin for BepInEx. It allows you to set your own custo
 
 ## How to edit the config file
 
-1. Navigate to `The Legend of Bum-Bo/BepInEx/config/` and open up `org.bepinex.plugins.customloadingtips.cfg` with an editor of your choice. (I prefer Notepad++)
-2. Find the loading tip you want to edit, for example this is the 3rd loading tip:
+1. Make sure you have run the game once to generate the config file after installing the plugin!
+2. Navigate to `The Legend of Bum-Bo/BepInEx/config/` and open up `org.bepinex.plugins.customloadingtips.cfg` with an editor of your choice. (I prefer Notepad++)
+3. Find the loading tip you want to edit, for example this is the 3rd loading tip:
 ```## Loading tip 3 of 12
 # Setting type: String
 # Default value: "make sure to always spin\nthe stat wheel!"
 LDTip3 = \"make sure to always spin\nthe stat wheel!\"
 ```
-3. Now `LDTip3` is the value we need to edit.
-4. For example I will change it to `LDTip3 = \"spells that manipulate the board\nare quite useful!\"`
-5. Save the file and run the game again
-6. When that tip is loaded it will display as follows...
+4. Now `LDTip3` is the value we need to edit.
+5. For example I will change it to `LDTip3 = \"spells that manipulate the board\nare quite useful!\"`
+6. Save the file and run the game again
+7. When that tip is loaded it will display as follows...
 ![Loading Tip #3 Example](https://github.com/MattDeDuck/TheLegendOfBumbo/blob/master/CustomLoadingTips/loadtip1.png)
+
+## Notes
+
+- The use of the `\` before the quotation marks is to allow the game to read it as a normal quotation mark and not part of the coding language
+- The use of `\n` is to create a new line
