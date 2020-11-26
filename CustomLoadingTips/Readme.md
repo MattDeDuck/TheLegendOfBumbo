@@ -7,7 +7,7 @@ Custom Loading Tips is a plugin for BepInEx. It allows you to set your own custo
 1. You need to install [BepInEx](https://github.com/BepInEx/BepInEx#readme) to The Legend of Bum-Bo game folder.
 2. Download the two files `CustomLoadingTips.dll` and `MMHOOK_Assembly-CSharp.dll`
 3. Create a folder in `The Legend of Bum-Bo/BepInEx/Plugins` entitled `CustomLoadingTips`
-4. Place the two files within `The Legend of Bum-Bo/BepInEx/plugins/TrinketHelper`
+4. Place the two files within ```The Legend of Bum-Bo/BepInEx/plugins/CustomLoadingTips```
 5. Run the game once as this will create the config file.
 
 ## How to edit the config file
